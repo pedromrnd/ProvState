@@ -1,0 +1,34 @@
+{
+  "name": "Activity",
+  "base": "Model",
+  "idInjection": false,
+  "properties": {
+    "actname": {
+      "type": "string",
+      "id": true
+    },
+    "depactname": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": [
+        "Relation"
+      ]
+    },
+    "outputs": {
+      "type": [
+        "Relation"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "activation": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

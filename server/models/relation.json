@@ -1,0 +1,31 @@
+{
+  "name": "Relation",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "idInjection": false,
+    "validateUpsert": true
+  },
+  "properties": {
+    "relname": {
+      "type": "string",
+      "id": true
+    },
+    "fields": {
+      "type": [
+        "Field"
+      ]
+    },
+    "tuples": {
+      "type": [
+        [
+          "any"
+        ]
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

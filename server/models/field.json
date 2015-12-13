@@ -1,0 +1,22 @@
+{
+  "name": "Field",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "idInjection": false,
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "id": true
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

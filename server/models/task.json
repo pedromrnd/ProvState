@@ -1,0 +1,58 @@
+{
+  "name": "Task",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": "true"
+    },
+    "predtasksid": {
+      "type": [
+        "string"
+      ]
+    },
+    "inputs": {
+      "type": [
+        "Relation"
+      ]
+    },
+    "outputs": {
+      "type": [
+        "Relation"
+      ]
+    },
+    "workspace": {
+      "type": "string"
+    },
+    "command": {
+      "type": "string"
+    },
+    "exitstatus": {
+      "type": "number"
+    },
+    "terr": {
+      "type": "string"
+    },
+    "tout": {
+      "type": "string"
+    },
+    "starttime": {
+      "type": "date"
+    },
+    "endtime": {
+      "type": "date"
+    },
+    "version": {
+      "type": "number"
+    },
+    "lastupdate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

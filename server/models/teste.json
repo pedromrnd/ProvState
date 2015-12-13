@@ -1,0 +1,23 @@
+{
+  "name": "teste",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "act": {
+      "type": "embedsMany",
+      "model": "Field",
+      "property": "fieldList",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "WfExecution",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id":true
+    },
+    "wfconcpid": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "starttime": {
+      "type": "date"
+    },
+    "endtime": {
+      "type": "date"
+    },
+    "inputs": {
+      "type": [
+        "Relation"
+      ]
+    },
+    "lastupdate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
