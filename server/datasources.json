@@ -6,5 +6,12 @@
   "transient": {
     "name": "transient",
     "connector": "transient"
+  },
+  "mongodb": {
+    "name": "mongodb",
+    "connector": "mongodb",
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "provstate"
   }
 }

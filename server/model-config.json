@@ -34,15 +34,15 @@
     "public": false
   },
   "ConceptualWf": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
-   "WfExecution": {
-    "dataSource": "db",
+  "WfExecution": {
+    "dataSource": "mongodb",
     "public": true
   },
   "Task": {
-    "dataSource": "db",
+    "dataSource": "mongodb",
     "public": true
   },
   "swagger_v1": {
