@@ -1,5 +1,5 @@
 # ProvState
-## Instruções:
+### Instruções:
 - Instale [Node.js](https://nodejs.org/en/download/)
 - Clone o repositório:
 
@@ -15,7 +15,10 @@ cd ProvState
 ```bash
 npm install
 ```
-
+- Inicie o servidor
+```bash
+node .
+```
 - Visite [http://localhost:3000/explorer](http://localhost:3000/explorer) para saber mais sobre a API
 
 - OBS: talvez seja necessário instalar a ferramenta da StrongLoop
