@@ -7,6 +7,12 @@
       "type": "string",
       "id": "true"
     },
+    "execid": {
+      "type": "string"
+    },
+    "actname": {
+      "type": "string"
+    },
     "predtasksid": {
       "type": [
         "string"

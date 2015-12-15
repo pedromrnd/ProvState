@@ -25,6 +25,9 @@
     },
     "activation": {
       "type": "string"
+    },
+    "extractor": {
+      "type": "string"
     }
   },
   "validations": [],
